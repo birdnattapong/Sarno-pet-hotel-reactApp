@@ -20,7 +20,7 @@ export default function EditDialog(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/Product/getProducts/" + id)
+      .get("https://sarno-pet-hotel-springboot.herokuapp.com/Product/getProducts/" + id)
       .then((res) => {
         setProductName(res.data.productName);
         setVolumn(res.data.volumn);
@@ -38,7 +38,7 @@ export default function EditDialog(props) {
     e.preventDefault()
 
     axios
-      .put("http://localhost:3001/Product/updateProduct", {
+      .put("https://sarno-pet-hotel-springboot.herokuapp.com/Product/updateProduct", {
         id: id,
         productName: productName,
         volumn: volumn,

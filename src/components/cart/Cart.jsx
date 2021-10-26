@@ -42,7 +42,7 @@ export default function Cart(props) {
     if (cartItems.length === 0) {
     } else {
       axios
-      .post("http://localhost:3001/Order_details/addOrder_details", {
+      .post("https://sarno-pet-hotel-springboot.herokuapp.com/Order_details/addOrder_details", {
         total: totalPrice,
         payment: isBankActive ? "โอน" : "เงินสด",
         created_at: moment(new Date()).format('YYYY-MM-DD HH:mm:ss')
@@ -54,7 +54,7 @@ export default function Cart(props) {
           formData.push({order_id: res.data.id, product_id: product.id, qty: product.qty})
         })
 
-        axios.post("http://localhost:3001/Order_items/addOrder_items", formData)
+        axios.post("https://sarno-pet-hotel-springboot.herokuapp.com/Order_items/addOrder_items", formData)
         .then((res) => {
           console.log(res);
           onClearCart();

@@ -17,7 +17,7 @@ export default function AddProductQty(props) {
 
     axios
       .put(
-        "http://localhost:3001/Product/addProductQty/" +
+        "https://sarno-pet-hotel-springboot.herokuapp.com/Product/addProductQty/" +
           productToAdd.id +
           "/" +
           qtyToAdd

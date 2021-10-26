@@ -13,7 +13,7 @@ export default function DeleteDialog(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/Product/getProducts/" + id)
+      .get("https://sarno-pet-hotel-springboot.herokuapp.com/Product/getProducts/" + id)
       .then((res) => {
         setProduct(res.data);
       })
@@ -24,7 +24,7 @@ export default function DeleteDialog(props) {
     e.preventDefault();
 
     axios
-      .delete("http://localhost:3001/Product/deleteProduct/" + id)
+      .delete("https://sarno-pet-hotel-springboot.herokuapp.com/Product/deleteProduct/" + id)
       .then((res) => {
         console.log(res);
         handleClose();

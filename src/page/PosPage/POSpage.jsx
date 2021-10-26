@@ -13,7 +13,7 @@ export default function POSpage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/Product/getProducts")
+      .get("https://sarno-pet-hotel-springboot.herokuapp.com/Product/getProducts")
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
   }, []);

@@ -29,12 +29,12 @@ export default function ReportPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/Order_details/getOrder_details")
+      .get("https://sarno-pet-hotel-springboot.herokuapp.com/Order_details/getOrder_details")
       .then((res) => setOrder_details(res.data))
       .catch((err) => console.log(err));
 
     axios
-      .get("http://localhost:3001/Product/getAlmostEmptyProducts")
+      .get("https://sarno-pet-hotel-springboot.herokuapp.com/Product/getAlmostEmptyProducts")
       .then((res) => setAlmostEmptyProducts(res.data))
       .catch((err) => console.log(err));
   }, [almostEmptyProducts]);
@@ -46,7 +46,7 @@ export default function ReportPage() {
   async function getBill(order_detail) {
     try {
       let res = await axios.get(
-        "http://localhost:3001/Order_items/getBill/" + order_detail.id
+        "https://sarno-pet-hotel-springboot.herokuapp.com/Order_items/getBill/" + order_detail.id
       );
       return res.data;
     } catch (err) {

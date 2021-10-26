@@ -14,7 +14,7 @@ export default function ProductPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/Product/getProducts")
+      .get("https://sarno-pet-hotel-springboot.herokuapp.com/Product/getProducts")
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
   }, [products]);
@@ -42,7 +42,7 @@ export default function ProductPage() {
     e.preventDefault();
 
     axios
-      .post("http://localhost:3001/Product/addProduct", {
+      .post("https://sarno-pet-hotel-springboot.herokuapp.com/Product/addProduct", {
         productName: productName,
         volumn: volumn,
         size: size,
