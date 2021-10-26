@@ -1,0 +1,42 @@
+.POS {
+  flex: 10;
+  margin-left: 1rem;
+}
+
+.top {
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 8px 18px -11px rgba(0, 0, 0, 0.76);
+  box-shadow: 0px 8px 18px -11px rgba(0, 0, 0, 0.76);
+  margin-right: 1rem;
+}
+
+.iconWrapper {
+  width: 35px;
+  height: 30px;
+  background-color: #37aec9;
+  border-radius: 100%;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.searchTxt {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: .9rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.content{
+    margin-top: 0.5rem;
+}

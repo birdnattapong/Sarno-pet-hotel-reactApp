@@ -1,0 +1,92 @@
+.reportPage {
+    display: flex;
+}
+
+.reportPage-main-content {
+    width: calc(100vw - 8rem);
+    margin-left: 1rem;
+}
+
+.reportPage-title-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.reportPage-title {
+    width: 15rem;
+    line-height: 2rem;
+    background-color: #37aec9;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    font-size: 20px;
+}
+
+.reportPage-content {
+    height: calc(100vh - 4rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ReportWrapper {
+    width: 49%;
+    border-radius: 1rem;
+}
+
+.report-Title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+
+.id-cell {
+    width: 2rem;
+}
+
+.date-cell {
+    width: 4rem;
+}
+
+.total-cell {
+    width: 4rem;
+}
+
+.payment-cell {
+    width: 3rem;
+}
+
+.action-cell {
+    width: 5rem;
+}
+
+.show-desc {
+    border: 1px solid rgb(63, 187, 63);
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 1rem;
+    color: rgb(63, 187, 63);
+    line-height: 1.5rem;
+}
+
+.show-desc:hover {
+    color: white;
+    background-color: rgb(63, 187, 63);
+}
+
+.report-productName-cell {
+    width: 13rem;
+}
+
+.report-stock-cell {
+    width: 2rem;
+}
+
+.report-remain-cell {
+    width: 2rem;
+}
+
+.report-action-cell {
+    width: 4rem;
+}

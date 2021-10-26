@@ -1,0 +1,10 @@
+.dialog-delete {
+  width: 35vw;
+  height: 25vh;
+  box-sizing: border-box;
+}
+
+.dialog-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}

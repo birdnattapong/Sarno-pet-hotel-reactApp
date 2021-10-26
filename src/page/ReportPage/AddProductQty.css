@@ -1,0 +1,19 @@
+.dialog-addproduct-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.addProduct-input-wrapper {
+    margin-top: .5rem;
+}
+
+.addProduct-input {
+    width: 2rem;
+    margin-left: .5rem;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
