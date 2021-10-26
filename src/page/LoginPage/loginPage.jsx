@@ -37,7 +37,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     axios
-      .post("http://localhost:3001/Admin/login", {
+      .post("https://sarno-pet-hotel-springboot.herokuapp.com/Admin/login", {
         username: username,
         password: password,
       })
