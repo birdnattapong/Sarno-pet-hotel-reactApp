@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## Sarno Pet Hotel CRUD Web Application with React JS, Spring boot, Mysql
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For the frontend, we use React JS, html and css and For the backend is Spring boot - java languange and The database is Mysql.</br>
+<img width="600" alt="Screenshot 2021-10-27 173303" src="https://user-images.githubusercontent.com/56066721/139049599-e1a3ae41-f4ce-488b-996c-0b1d9afd6d88.png">
+<img width="600" alt="Screenshot 2021-10-27 173431" src="https://user-images.githubusercontent.com/56066721/139049957-2a868f67-1c7d-4688-a38d-13381df2d210.png">
+<img width="600" alt="Screenshot 2021-10-27 173452" src="https://user-images.githubusercontent.com/56066721/139049963-485057ce-5d94-46d5-89e8-c5fb7b37ef60.png">
+<img width="600" alt="Screenshot 2021-10-27 173507" src="https://user-images.githubusercontent.com/56066721/139049966-d1ba99df-c857-4772-9717-9e582376aaf5.png">
+<img width="600" alt="Screenshot 2021-10-27 173528" src="https://user-images.githubusercontent.com/56066721/139049968-411439ce-6103-4388-8233-8da6e589142f.png">
+<img width="600" alt="Screenshot 2021-10-27 173542" src="https://user-images.githubusercontent.com/56066721/139049970-3528209e-daeb-48b0-8aa1-1a562eec08b1.png">
 
-## Available Scripts
+* The Functions in this web application.
+  * Sell products. (search product by name)
+  * Add product.
+  * View products. (search product by name)
+  * Edit product.
+  * Delete product.
+  * View bills.
+  * Add product quantity while product is almost empty.
 
-In the project directory, you can run:
+[Click this link to view Sarno Pet Hotel web application](https://sarno-pet-hotel.herokuapp.com/) username : sarno, password : sarno123456
+####  ***Note that this web application deployed to Heroku for free tier, after not using the web for 30 mins then the server will sleep. In order to use the web while the server is sleeping, you have to wait for the server to wake up for around 1-2 mins for the response.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[This link is the backend server that serve REST api](http://sarno-pet-hotel-springboot.herokuapp.com/)
