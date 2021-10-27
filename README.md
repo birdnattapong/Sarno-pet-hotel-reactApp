@@ -18,6 +18,7 @@ For the frontend, we use React JS, html and css and For the backend is Spring bo
   * Add product quantity while product is almost empty.
 
 [Click this link to view Sarno Pet Hotel web application](https://sarno-pet-hotel.herokuapp.com/) username : sarno, password : sarno123456
-####  ***Note that this web application deployed to Heroku for free tier, after not using the web for 30 mins then the server will sleep. In order to use the web while the server is sleeping, you have to wait for the server to wake up for around 1-2 mins for the response.
+#### ***Note 1*** This web application deployed to Heroku for free tier, after not using the web for 30 mins then the server will sleep. In order to use the web while the server is sleeping, you have to wait for the server to wake up for around 1-2 mins for the response.
+#### ***Note 2*** The max_questions for the database query request is 3600 per hour.
 
 [This link is the backend server that serve REST api](http://sarno-pet-hotel-springboot.herokuapp.com/)
