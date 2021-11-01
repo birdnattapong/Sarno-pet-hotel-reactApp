@@ -1,4 +1,4 @@
-## Sarno Pet Hotel CRUD Web Application with React JS, Spring boot, Mysql
+## Sarno Pet Hotel CRUD Web Application with React JS, Spring boot, MySql
 
 For the frontend, we use React JS, html and css and For the backend is Spring boot - java languange and The database is Mysql.</br>
 <img width="600" alt="Screenshot 2021-10-27 173303" src="https://user-images.githubusercontent.com/56066721/139049599-e1a3ae41-f4ce-488b-996c-0b1d9afd6d88.png">
